@@ -5,5 +5,5 @@ module.exports = {
     WEBSITE: "WEBSTAGING",
     CHANNEL_ID: "WEB",
     INDUSTRY_TYPE_ID: "Retail",
-    CALLBACK_URL: "http://localhost:3000/paywithpaytmresponse"
+    CALLBACK_URL: "https://paytm-test.azurewebsites.net/paywithpaytmresponse"
 };

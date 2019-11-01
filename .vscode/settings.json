@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/f083ea65-adeb-4cdd-9b46-71f40d0282df/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/paytm-test",
+    "appService.deploySubpath": ""
+}

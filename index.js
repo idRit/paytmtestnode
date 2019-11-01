@@ -15,10 +15,7 @@ app.set("view engine", "ejs");
 const {initPayment, responsePayment} = require("./paytm/service");
 
 app.get('/', (req, res) => {
-    res.json({
-        success: true, 
-        message: "working"
-    });
+    res.render('index.ejs');
 });
 
 app.get('/paywithpaytm/:amount', async (req, res) => {

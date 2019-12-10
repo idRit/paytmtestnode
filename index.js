@@ -25,7 +25,7 @@ app.get('/paywithpaytm/:amount', async (req, res) => {
         console.log(response);
         res.render("paytmRedirect.ejs", {
             resultData: response,
-            paytmFinalUrl: process.env.PAYTM_FINAL_URL
+            paytmFinalUrl: require('./paytm/config').PAYTM_FINAL_URL
         });
     } catch(err) {
         console.log(err);
